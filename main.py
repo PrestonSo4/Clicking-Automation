@@ -1,5 +1,5 @@
-#In order for this to work you need this command in the CMD prompt
-#C:\{Path to your chrome} --remote-debugging-port=5050 --user-data-dir="{folder for the test data}"
+'''In order for this to work you need this command in the CMD prompt
+C:\{Path to your chrome} --remote-debugging-port=5050 --user-data-dir="{folder for the test data}"'''
 from selenium import webdriver
 import selenium
 from selenium.webdriver.chrome.options import Options
@@ -24,3 +24,4 @@ clickOn('//*[@id="00NG000000Fffpe"]')
 clickOn('//*[@id="opp11"]')
 clickOn('//*[@id="00N5200000Cye2U"]')
 clickOn('//*[@id="00NG000000FDbEg"]')
+clickOn('//*[@id="topButtonRow"]/input[3]')
