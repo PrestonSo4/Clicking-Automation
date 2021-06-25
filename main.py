@@ -1,5 +1,9 @@
-'''In order for this to work you need this command in the CMD prompt
-C:\{Path to your chrome} --remote-debugging-port=5050 --user-data-dir="{folder for the test data}"'''
+'''
+NOTE:
+
+In order for this to work you need this command in the CMD prompt
+C:\{Path to your chrome} --remote-debugging-port=5050 --user-data-dir="{folder for the test data}"
+'''
 from selenium import webdriver
 import selenium
 from selenium.webdriver.chrome.options import Options
